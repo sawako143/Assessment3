@@ -1,0 +1,10 @@
+ADD name Jimmy; birthday 09-09-1990; phone 88884444; address 9001 Chester Crescent
+	if an existing record(name and b.day match) then update record
+	else create new records
+
+DELETE name Jimmy or DELETE name Jimmy; birthday 09-09-1990
+
+QUERY name Jimmy; birthday 09-09-1990; phone 88884444
+	if there is more than 1 record show all.
+
+SAVE the resulting data collection of the instructions of “ADD” and “DELETE” into the specified output file
