@@ -10,7 +10,8 @@ public class Record {
 		this.address = address;
 	}
 
-    public Record() {};
+	public Record() {
+	};
 
 // getting and setting the variables here
 	public String getName() {
