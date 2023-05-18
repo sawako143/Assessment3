@@ -1,0 +1,24 @@
+
+Query: add name jimmy; birthday 09-09-1990; phoneNumber 88884444; address 9001 Chester Crescent
+
+jimmy
+09-09-1990
+88884444
+9001 Chester Crescent
+
+
+Query: delete name jimmy
+
+jimmy
+09-09-1990
+88884444
+9001 Chester Crescent
+
+
+Query: delete name nomi; birthday 07-07-1997
+
+nomi
+07-07-1997
+99995555
+west ryde 2114
+

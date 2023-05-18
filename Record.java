@@ -1,5 +1,7 @@
 package Assessment3;
 
+import java.util.Comparator;
+
 public class Record {
 	private String name, birthday, phoneNumber, address;
 
@@ -49,5 +51,16 @@ public class Record {
 	public String toString() {
 		return name + "\n" + birthday + "\n" + phoneNumber + "\n" + address;
 	}
+
+	public static Comparator<Record> nameComparator = new Comparator<Record>() {
+
+		@Override
+		public int compare(Record r1, Record r2) {
+			String name1 = r1.getName();
+			String name2 = r2.getName();
+			return name1.compareTo(name2);
+		}
+
+	};
 
 }

@@ -1,12 +1,13 @@
 --------------------add----------------------------------------------
-add name Jimmy; birthday 09-09-1990; phoneNumber 88884444; address 9001 Chester Crescent
+add name jimmy; birthday 09-09-1990; phoneNumber 88884444; address 9001 Chester Crescent
 	
 --------------------delete-------------------------------------------
-delete name Jimmy
-delete name Jimmy; birthday 09-09-1990
+delete name jimmy
+delete name nomi; birthday 07-07-1997
 
 --------------------query--------------------------------------------
-query name Jimmy; birthday 09-09-1990; phoneNumber 88884444
-	if there is more than 1 record show all.
+query name thanh
+query birthday 22-02-2001
+query phoneNumber 88887777
+query all
 
-SAVE the resulting data collection of the instructions of “ADD” and “DELETE” into the specified output file
